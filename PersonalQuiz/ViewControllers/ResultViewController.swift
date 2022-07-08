@@ -13,7 +13,6 @@ class ResultViewController: UIViewController {
     
     var answersChosen: [Answer]!
 
-
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.hidesBackButton = true
@@ -42,6 +41,4 @@ class ResultViewController: UIViewController {
         resultTitleLabel.text = "ВЫ - \(resultAnswer.rawValue)!"
         resultDescriptionLabel.text = resultAnswer.definition
     }
-    
-    
 }
